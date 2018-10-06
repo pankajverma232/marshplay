@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		552B4E4721673C930002665E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4E4621673C930002665E /* AppDelegate.swift */; };
-		552B4E4921673C940002665E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4E4821673C940002665E /* ViewController.swift */; };
+		552B4E4921673C940002665E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4E4821673C940002665E /* HomeViewController.swift */; };
 		552B4E4C21673C940002665E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552B4E4A21673C940002665E /* Main.storyboard */; };
 		552B4E4F21673C940002665E /* Marsplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 552B4E4D21673C940002665E /* Marsplay.xcdatamodeld */; };
 		552B4E5121673C960002665E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552B4E5021673C960002665E /* Assets.xcassets */; };
 		552B4E5421673C960002665E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552B4E5221673C960002665E /* LaunchScreen.storyboard */; };
+		552B4E6421673E3A0002665E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4E6221673E3A0002665E /* DetailsViewController.swift */; };
+		552B4E6521673E3A0002665E /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552B4E6321673E3A0002665E /* DetailsViewController.xib */; };
+		552B4E6D21673F510002665E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4E6B21673F510002665E /* MovieCell.swift */; };
+		552B4E6E21673F510002665E /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552B4E6C21673F510002665E /* MovieCell.xib */; };
+		552B4E7021674DBC0002665E /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552B4E6F21674DBC0002665E /* MovieModel.swift */; };
+		5599A3BD2167F68F005969A3 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5599A3BC2167F68F005969A3 /* CustomFlowLayout.swift */; };
+		55E290A32168B28300D237A5 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E290A22168B28300D237A5 /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		552B4E4321673C930002665E /* Marsplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marsplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552B4E4621673C930002665E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		552B4E4821673C940002665E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		552B4E4821673C940002665E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		552B4E4B21673C940002665E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		552B4E4E21673C940002665E /* Marsplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marsplay.xcdatamodel; sourceTree = "<group>"; };
 		552B4E5021673C960002665E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552B4E5321673C960002665E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		552B4E5521673C960002665E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552B4E6221673E3A0002665E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		552B4E6321673E3A0002665E /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		552B4E6B21673F510002665E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		552B4E6C21673F510002665E /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		552B4E6F21674DBC0002665E /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		5599A3BC2167F68F005969A3 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		55E290A22168B28300D237A5 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,86 @@
 		552B4E4521673C930002665E /* Marsplay */ = {
 			isa = PBXGroup;
 			children = (
-				552B4E4621673C930002665E /* AppDelegate.swift */,
-				552B4E4821673C940002665E /* ViewController.swift */,
+				552B4E5F21673DA70002665E /* CoreData */,
+				552B4E5E21673D770002665E /* AppDelegate */,
+				552B4E5D21673D620002665E /* Controllers */,
+				552B4E5C21673D590002665E /* Views */,
+				552B4E5B21673D500002665E /* Models */,
 				552B4E4A21673C940002665E /* Main.storyboard */,
 				552B4E5021673C960002665E /* Assets.xcassets */,
 				552B4E5221673C960002665E /* LaunchScreen.storyboard */,
 				552B4E5521673C960002665E /* Info.plist */,
-				552B4E4D21673C940002665E /* Marsplay.xcdatamodeld */,
 			);
 			path = Marsplay;
+			sourceTree = "<group>";
+		};
+		552B4E5B21673D500002665E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E6F21674DBC0002665E /* MovieModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		552B4E5C21673D590002665E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E6621673E760002665E /* MovieCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		552B4E5D21673D620002665E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E6121673E100002665E /* DetailsVC */,
+				552B4E6021673DFE0002665E /* HomeVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		552B4E5E21673D770002665E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E4621673C930002665E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		552B4E5F21673DA70002665E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E4D21673C940002665E /* Marsplay.xcdatamodeld */,
+				55E290A22168B28300D237A5 /* ImageSaver.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		552B4E6021673DFE0002665E /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E4821673C940002665E /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		552B4E6121673E100002665E /* DetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E6221673E3A0002665E /* DetailsViewController.swift */,
+				552B4E6321673E3A0002665E /* DetailsViewController.xib */,
+			);
+			path = DetailsVC;
+			sourceTree = "<group>";
+		};
+		552B4E6621673E760002665E /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				552B4E6B21673F510002665E /* MovieCell.swift */,
+				552B4E6C21673F510002665E /* MovieCell.xib */,
+				5599A3BC2167F68F005969A3 /* CustomFlowLayout.swift */,
+			);
+			path = MovieCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +213,8 @@
 				552B4E5421673C960002665E /* LaunchScreen.storyboard in Resources */,
 				552B4E5121673C960002665E /* Assets.xcassets in Resources */,
 				552B4E4C21673C940002665E /* Main.storyboard in Resources */,
+				552B4E6521673E3A0002665E /* DetailsViewController.xib in Resources */,
+				552B4E6E21673F510002665E /* MovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552B4E4921673C940002665E /* ViewController.swift in Sources */,
+				552B4E7021674DBC0002665E /* MovieModel.swift in Sources */,
+				552B4E4921673C940002665E /* HomeViewController.swift in Sources */,
 				552B4E4F21673C940002665E /* Marsplay.xcdatamodeld in Sources */,
 				552B4E4721673C930002665E /* AppDelegate.swift in Sources */,
+				552B4E6D21673F510002665E /* MovieCell.swift in Sources */,
+				552B4E6421673E3A0002665E /* DetailsViewController.swift in Sources */,
+				5599A3BD2167F68F005969A3 /* CustomFlowLayout.swift in Sources */,
+				55E290A32168B28300D237A5 /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
