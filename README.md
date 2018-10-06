@@ -5,7 +5,7 @@ demo app for movie data
 
 ## Description
 
-This demo app fetches all movie records from OMDB using following api:
+This demo app fetches  movie records from OMDB using following api:
 
 http://www.omdbapi.com/?s=Batman&page=1&apikey=eeefc96f
 
